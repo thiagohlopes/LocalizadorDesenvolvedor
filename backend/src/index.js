@@ -10,7 +10,7 @@ const cors = require('cors');
 const routes = require('./routes');
 
 const app = express();
-mongoose.connect('mongodb+srv://thiago:awdrthnjil@cluster0-6txwd.gcp.mongodb.net/NomeBanco?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://login:senha@cluster0-6txwd.gcp.mongodb.net/NomeBanco?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
